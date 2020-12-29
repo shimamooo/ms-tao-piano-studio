@@ -1,5 +1,23 @@
 .cards {
-  display: grid;
-  grid-template-columns: repeat(6, 215px);
+  display: flex;
   column-gap: 15px;
+  overflow-x: auto;
+}
+
+.cards::-webkit-scrollbar {
+  height: 5px;
+}
+
+.cards::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 999px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  background: var(--gray-dark);
+  border-radius: 999px;
+}
+
+.cards::-webkit-scrollbar-thumb:hover {
+  background: var(--gray);
 }

@@ -2,3 +2,17 @@
   padding-top: 32px;
   border-top: 3px solid var(--red);
 }
+
+.footer {
+  padding-top: 72px;
+  padding-bottom: 40px;
+  background-color: var(--gray-dark);
+}
+
+.footerLinks {
+  margin-top: 24px;
+}
+
+.footerLinks li {
+  padding-bottom: 12px;
+}

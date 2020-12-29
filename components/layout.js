@@ -9,7 +9,20 @@ export default function Layout({ children, page }) {
         <HamburgerMenu />
       </header>
       <main>{children}</main>
-      <footer>I'm the footer</footer>
+      <footer className={styles.footer}>
+        <div className={utils.container}>
+          <h3 className={utils.h3}>Ms. Tao Piano Studio</h3>
+          <nav>
+            <ul className={styles.footerLinks}>
+              <li>Home</li>
+              <li>About</li>
+              <li>Student Achievements</li>
+              <li>Photo Gallery</li>
+              <li>Student Performances</li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
     </section>
   );
 }
