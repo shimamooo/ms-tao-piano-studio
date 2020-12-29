@@ -1,0 +1,11 @@
+.slideDownButton {
+  width: 16px;
+  height: 40px;
+  background-color: orangered;
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding-left: 0;
+  padding-right: 0;
+}

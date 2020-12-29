@@ -1,0 +1,8 @@
+.heading {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+
+.hero {
+  height: calc(100vh - 50px);
+}

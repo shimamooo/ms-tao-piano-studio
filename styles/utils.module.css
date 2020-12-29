@@ -1,8 +1,9 @@
 .container {
   max-width: 1120px;
-  margin: 0 auto;
-  padding: 0 30px;
-  border: 1px solid orangered;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .h1 {
@@ -16,4 +17,15 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 24px;
+}
+
+.labelH1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 12%;
+  font-size: 14px;
+  color: var(--red);
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 8px;
 }
