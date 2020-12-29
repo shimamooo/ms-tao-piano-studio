@@ -26,5 +26,12 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--gray-dark);
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray-dark);
 }

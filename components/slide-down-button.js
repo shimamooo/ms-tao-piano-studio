@@ -3,7 +3,7 @@ import util from '../styles/utils.module.css';
 
 export default function () {
   return (
-    <div className={`${util.container} ${styles.slideDownButton}`}>
+    <div className={styles.slideDownButton}>
       <span></span>
       <span></span>
     </div>

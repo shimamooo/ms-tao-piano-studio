@@ -4,6 +4,7 @@ import util from '../styles/utils.module.css';
 import Layout from '../components/layout';
 import ImageSlider from '../components/image-slider';
 import SlideDownButton from '../components/slide-down-button';
+import Cards from '../components/cards';
 
 export default function Home() {
   return (
@@ -19,6 +20,14 @@ export default function Home() {
         </div>
         <ImageSlider />
         <SlideDownButton />
+      </section>
+      <section className={styles.news}>
+        <h2 className={util.h2}>News</h2>
+        <Cards />
+      </section>
+      <section className={styles.media}>
+        <h2 className={util.h2}>Media</h2>
+        <Cards />
       </section>
     </Layout>
   );
