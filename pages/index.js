@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import util from '../styles/utils.module.css';
 import Layout from '../components/layout';
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
         <title>Ms. Tao Piano Studio</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <section>!!!! this is inbetween text !!!!</section>
+      <div className={util.container}>Real shit</div>
     </Layout>
   );
 }

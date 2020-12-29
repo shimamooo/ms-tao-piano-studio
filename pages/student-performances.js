@@ -1,11 +1,12 @@
 import Head from 'next/head';
+import Layout from '../components/layout';
 
 export default function StudentPerformances() {
   return (
-    <div>
+    <Layout page='student-performances'>
       <Head>
         <title>Student Performances</title>
       </Head>
-    </div>
+    </Layout>
   );
 }

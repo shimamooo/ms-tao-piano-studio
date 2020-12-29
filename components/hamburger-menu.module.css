@@ -1,0 +1,29 @@
+.navbar {
+  cursor: pointer;
+  width: 40px;
+  height: 20px;
+  position: relative;
+}
+
+.navbar span {
+  background-color: var(--gray);
+  display: block;
+  position: absolute;
+  height: 2.5px;
+  width: 100%;
+  border-radius: 100px;
+}
+
+.navbar span:nth-child(1) {
+  top: 0px;
+  width: 30px;
+}
+
+.navbar span:nth-child(2) {
+  top: 9px;
+}
+
+.navbar span:nth-child(3) {
+  top: 18px;
+  width: 30px;
+}
