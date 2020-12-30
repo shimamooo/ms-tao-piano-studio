@@ -13,7 +13,7 @@ export default function Layout({ children, page }) {
         <div className={utils.container}>
           <h3 className={utils.h3}>Ms. Tao Piano Studio</h3>
           <nav>
-            <ul className={styles.footerLinks}>
+            <ul className={`${utils.footerLinks} ${styles.footerLinks}`}>
               <li>Home</li>
               <li>About</li>
               <li>Student Achievements</li>
