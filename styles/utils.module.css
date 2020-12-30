@@ -24,7 +24,7 @@
 
 .h3 {
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.4px;
   text-transform: uppercase;
   color: var(--gray);
   font-size: 14px;

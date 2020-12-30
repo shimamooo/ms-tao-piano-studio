@@ -1,6 +1,10 @@
+.hr {
+  height: 3px;
+  background-color: var(--red);
+}
+
 .header {
   padding-top: 32px;
-  border-top: 3px solid var(--red);
 }
 
 .footer {
@@ -10,9 +14,36 @@
 }
 
 .footerLinks {
-  margin-top: 24px;
+  margin-top: 40px;
 }
 
 .footerLinks li {
   padding-bottom: 12px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footerRight {
+  align-self: end;
+  justify-self: end;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.contact img {
+  width: 100%;
+}
+
+.copyright {
+  color: var(--gray);
+  text-align: right;
+  font-size: 12px;
 }

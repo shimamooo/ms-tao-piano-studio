@@ -9,3 +9,13 @@
   height: 275px;
   object-fit: cover;
 }
+
+.cardLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cardLink img {
+  width: 14px;
+}

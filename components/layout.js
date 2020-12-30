@@ -5,6 +5,7 @@ import HamburgerMenu from '../components/hamburger-menu';
 export default function Layout({ children, page }) {
   return (
     <section>
+      <div className={styles.hr}></div>
       <header className={`${styles.header} ${utils.container}`}>
         <HamburgerMenu />
       </header>
@@ -12,7 +13,7 @@ export default function Layout({ children, page }) {
       <footer className={styles.footer}>
         <div className={utils.container}>
           <h3 className={utils.h3}>Ms. Tao Piano Studio</h3>
-          <nav>
+          <div className={styles.container}>
             <ul className={`${utils.footerLinks} ${styles.footerLinks}`}>
               <li>Home</li>
               <li>About</li>
@@ -20,7 +21,16 @@ export default function Layout({ children, page }) {
               <li>Photo Gallery</li>
               <li>Student Performances</li>
             </ul>
-          </nav>
+            <div className={styles.footerRight}>
+              <div className={styles.contact}>
+                <img src='img/email.svg' alt='email' />
+                <img src='img/phone.svg' alt='phone' />
+                <img src='img/wechat.svg' alt='wechat' />
+              </div>
+              <p className={styles.copyright}>&copy; Ms. Tao Piano Studio</p>
+              <p className={styles.copyright}>All rights reserved.</p>
+            </div>
+          </div>
         </div>
       </footer>
     </section>

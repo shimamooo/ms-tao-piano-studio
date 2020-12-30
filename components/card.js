@@ -12,7 +12,10 @@ export default function Card() {
         />
       </a>
       <p className={util.labelCards}>Competition</p>
-      <a href=''>2020 Competition Results</a>
+      <div className={styles.cardLink}>
+        <a href=''>2020 Competition Results</a>
+        <img src='img/arrow-right.svg' alt='arrow right' />
+      </div>
     </article>
   );
 }
