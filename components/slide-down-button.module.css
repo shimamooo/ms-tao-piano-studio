@@ -1,9 +1,22 @@
 .slideDownButton {
   width: 16px;
   height: 40px;
-  background-color: orangered;
   position: absolute;
   bottom: 24px;
   left: 50%;
   transform: translate(-50%, 0);
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid var(--gray-light);
+  border-radius: 999px;
+}
+
+.circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: var(--red);
+  right: 2px;
+  border-radius: 999px;
+  top: 2.5px;
 }

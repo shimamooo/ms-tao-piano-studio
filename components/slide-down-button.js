@@ -1,11 +1,9 @@
 import styles from './slide-down-button.module.css';
-import util from '../styles/utils.module.css';
 
-export default function () {
+export default function SlideDownButton() {
   return (
     <div className={styles.slideDownButton}>
-      <span></span>
-      <span></span>
+      <span className={styles.circle}></span>
     </div>
   );
 }
