@@ -2,9 +2,6 @@
   display: flex;
   column-gap: 15px;
   overflow-x: auto;
-}
-
-.cards.active {
   cursor: grab;
 }
 
