@@ -21,6 +21,10 @@
   padding-bottom: 12px;
 }
 
+.footerLinks a {
+  color: var(--gray-light);
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

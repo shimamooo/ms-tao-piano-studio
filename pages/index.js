@@ -21,7 +21,7 @@ export default function Home() {
         <ImageSlider />
         <SlideDownButton />
       </section>
-      <section className={styles.news}>
+      <section className={styles.news} id='news'>
         <h2 className={util.h2}>News</h2>
         <Cards />
       </section>

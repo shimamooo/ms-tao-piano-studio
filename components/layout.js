@@ -1,6 +1,7 @@
 import utils from '../styles/utils.module.css';
 import styles from './layout.module.css';
 import HamburgerMenu from '../components/hamburger-menu';
+import Link from 'next/link';
 
 export default function Layout({ children, page }) {
   return (
@@ -14,12 +15,32 @@ export default function Layout({ children, page }) {
         <div className={utils.container}>
           <h3 className={utils.h3}>Ms. Tao Piano Studio</h3>
           <div className={styles.container}>
-            <ul className={`${utils.footerLinks} ${styles.footerLinks}`}>
-              <li>Home</li>
-              <li>About</li>
-              <li>Student Achievements</li>
-              <li>Photo Gallery</li>
-              <li>Student Performances</li>
+            <ul className={`${utils.footerLink} ${styles.footerLinks}`}>
+              <li>
+                <Link href='/'>
+                  <a>Home</a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/about'>
+                  <a>About</a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/student-achievements'>
+                  <a>Student Achievements</a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/photo-gallery'>
+                  <a>Photo Gallery</a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/student-performances'>
+                  <a>Student Performances</a>
+                </Link>
+              </li>
             </ul>
             <div className={styles.footerRight}>
               <div className={styles.contact}>
