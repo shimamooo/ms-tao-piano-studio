@@ -1,0 +1,22 @@
+.content {
+  margin-top: 100px;
+}
+
+.content p {
+  color: var(--gray);
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.content img {
+  max-width: 700px;
+  width: calc(100vw - 60px);
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding-top: 24px;
+}
+
+.content p:last-child {
+  padding-bottom: 80px;
+}
