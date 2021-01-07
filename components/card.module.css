@@ -19,11 +19,11 @@
 .link {
   display: flex;
   align-items: baseline;
-  gap: 10px;
 }
 
 .arrow {
   height: 15px;
+  margin-left: 10px;
 }
 
 @media only screen and (min-width: 500px) {
