@@ -18,7 +18,9 @@ export default function Layout({ children, page }) {
             <a href='mailto:taopianostudio@gmail.com' target='_blank'>
               <img src='img/email.svg' alt='email' />
             </a>
-            <img src='img/phone.svg' alt='phone' />
+            <a href='tel:9258951393' target='_blank'>
+              <img src='img/phone.svg' alt='phone' />
+            </a>
             <img src='img/wechat.svg' alt='wechat' />
           </div>
           <div className={styles.container}>
