@@ -12,3 +12,29 @@
   opacity: 0;
   transition: opacity 2s ease-in-out;
 }
+
+@media only screen and (min-width: 700px) {
+  .imageSlider {
+    height: 85vh;
+    margin-top: -212px;
+    opacity: 0.5;
+  }
+
+  .imageSlider::before {
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .imageSlider {
+    margin-top: -221px;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .imageSlider {
+    margin-top: -232px;
+  }
+}
