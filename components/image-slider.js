@@ -32,6 +32,7 @@ export default function ImageSlider() {
         className={styles.img}
         alt=''
       />
+      <span className={styles.overlay}></span>
     </figure>
   );
 }
