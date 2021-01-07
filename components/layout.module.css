@@ -14,7 +14,7 @@
 }
 
 .footerLinks {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .footerLinks li {
@@ -37,9 +37,10 @@
 
 .contact {
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(3, 40px);
   gap: 16px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .contact img {
@@ -49,5 +50,6 @@
 .copyright {
   color: var(--gray);
   text-align: right;
-  font-size: 12px;
+  font-size: 10px;
+  padding-bottom: 10px;
 }
