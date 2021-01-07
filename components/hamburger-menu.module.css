@@ -43,6 +43,7 @@
   transition: opacity 0.3s cubic-bezier(0.83, 0, 1, 1.02);
   opacity: 0;
   width: 450px;
+  max-width: 90vw;
   margin: -25px 0 0 -23px;
   border-radius: 5px;
   padding: 60px 25px 25px 100px;
@@ -51,7 +52,7 @@
 }
 
 .navbar li {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
