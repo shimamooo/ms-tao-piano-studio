@@ -1,6 +1,6 @@
 .imageSlider {
   width: 100%;
-  height: calc(100vh - 355px);
+  height: calc(100vh - 400px);
   min-height: 300px;
   background: grey;
 }
