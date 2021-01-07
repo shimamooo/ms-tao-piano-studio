@@ -14,10 +14,10 @@ export default function About() {
         <img src='img/about.jpg' alt='Ms. Tao and students' />
         <p>
           Children who study a musical instrument learn responsibility and
-          discipline, gain pride in their accomplishments which in turn makes
-          them more confident, and learn to think in a logical manner. Students
-          who study music often perform better in school. These are just a few
-          of the benefits that your child can gain.
+          discipline. They gain pride in their accomplishments which in turn
+          makes them more confident and think in a logical manner. Students who
+          study music often perform better in school. These are just a few of
+          the benefits that your child can gain.
         </p>
         <p>
           The goal of the Ms. Tao Piano Studio is to provide an environment
@@ -30,9 +30,15 @@ export default function About() {
           in classes.
         </p>
         <p>
-          If you have further questions, please feel free to contact Ms. Tao at
-          (925) 895-1393, leave a message or email taopianostudio@yahoo.com for
-          more information.
+          If you have further questions, please feel free to contact Ms. Tao at{' '}
+          <a href='tel:9258951393' target='_blank'>
+            (925) 895-1393
+          </a>
+          , leave a message, or email{' '}
+          <a href='mailto:taopianostudio@yahoo.com' target='_blank'>
+            taopianostudio@yahoo.com
+          </a>{' '}
+          for more information.
         </p>
       </main>
     </Layout>
