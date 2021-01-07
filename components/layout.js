@@ -15,7 +15,7 @@ export default function Layout({ children, page }) {
         <div className={utils.container}>
           <h3 className={utils.h3}>Ms. Tao Piano Studio</h3>
           <div className={styles.contact}>
-            <a href='mailto:taopianostudio@gmail.com'>
+            <a href='mailto:taopianostudio@gmail.com' target='_blank'>
               <img src='img/email.svg' alt='email' />
             </a>
             <img src='img/phone.svg' alt='phone' />
