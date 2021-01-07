@@ -16,8 +16,14 @@
   gap: 8px;
 }
 
-.cardLink img {
-  width: 14px;
+.link {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.arrow {
+  height: 15px;
 }
 
 @media only screen and (min-width: 500px) {

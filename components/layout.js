@@ -2,8 +2,42 @@ import utils from '../styles/utils.module.css';
 import styles from './layout.module.css';
 import HamburgerMenu from '../components/hamburger-menu';
 import Link from 'next/link';
+import { useEffect } from 'react';
 
 export default function Layout({ children, page }) {
+  useEffect(() => {
+    const contact = document.querySelector(`.${styles.contact}`);
+    const footerRight = document.querySelector(`.${styles.footerRight}`);
+    const container = document.querySelector('.footerContainer');
+    const bottomContainer = document.querySelector(`.${styles.container}`);
+
+    if (window.matchMedia('(min-width: 750px)').matches) {
+      if (contact) {
+        contact.parentNode.removeChild(contact);
+        footerRight.prepend(contact);
+      }
+    } else {
+      if (contact) {
+        contact.parentNode.removeChild(contact);
+        container.insertBefore(contact, bottomContainer);
+      }
+    }
+
+    window.matchMedia('(min-width: 750px)').addListener((e) => {
+      if (e.matches) {
+        if (contact) {
+          contact.parentNode.removeChild(contact);
+          footerRight.prepend(contact);
+        }
+      } else {
+        if (contact) {
+          contact.parentNode.removeChild(contact);
+          container.insertBefore(contact, bottomContainer);
+        }
+      }
+    });
+  });
+
   return (
     <section>
       <div className={styles.hr}></div>
@@ -12,7 +46,7 @@ export default function Layout({ children, page }) {
       </header>
       <main>{children}</main>
       <footer className={styles.footer}>
-        <div className={utils.container}>
+        <div className={`${utils.container} footerContainer`}>
           <h3 className={utils.h3}>Ms. Tao Piano Studio</h3>
           <div className={styles.contact}>
             <a href='mailto:taopianostudio@gmail.com' target='_blank'>
