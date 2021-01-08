@@ -8,8 +8,8 @@
 }
 
 .footer {
-  padding-top: 120px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 40px;
   background-color: var(--gray-dark);
 }
 
@@ -60,6 +60,13 @@
   }
 }
 
+@media only screen and (min-width: 700px) {
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+}
+
 @media only screen and (min-width: 750px) {
   .copyright {
     font-size: 14px;
@@ -77,7 +84,19 @@
     font-size: 16px;
   }
 
+  .footer {
+    padding-top: 110px;
+    padding-bottom: 60px;
+  }
+
   .contact {
     grid-template-columns: repeat(3, 55px);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 130px;
+    padding-bottom: 65px;
   }
 }

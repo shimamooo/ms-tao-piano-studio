@@ -26,17 +26,17 @@
   display: block;
 }
 
-.overlay {
-  background-color: black;
-  opacity: 0.9;
-  position: relative;
-}
-
 @media only screen and (min-width: 700px) {
   .imageSlider {
     height: 85vh;
     margin-top: -241px;
     opacity: 0.94;
+    position: relative;
+  }
+
+  .overlay {
+    background-color: black;
+    opacity: 0.9;
     position: relative;
   }
 
