@@ -28,26 +28,36 @@
 
 .overlay {
   background-color: black;
-  opacity: 0.85;
+  opacity: 0.9;
   position: relative;
-}
-
-.heading {
-  visibility: visible;
 }
 
 @media only screen and (min-width: 700px) {
   .imageSlider {
     height: 85vh;
     margin-top: -241px;
-    opacity: 0.9;
+    opacity: 0.94;
     position: relative;
+  }
+
+  .heading {
+    visibility: visible;
   }
 }
 
 @media only screen and (min-width: 950px) {
   .imageSlider {
     margin-top: -254px;
+  }
+
+  .heading {
+    margin-top: -215px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .imageSlider {
+    margin-top: -268px;
   }
 
   .heading {
