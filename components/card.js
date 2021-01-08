@@ -7,7 +7,7 @@ export default function Card() {
       <a href=''>
         <img
           className={styles.img}
-          src='https://source.unsplash.com/random'
+          src='https://source.unsplash.com/random/900x1200'
           alt=''
         />
       </a>

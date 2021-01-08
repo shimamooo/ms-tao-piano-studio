@@ -18,9 +18,31 @@
   padding-bottom: 120px;
 }
 
+@media only screen and (min-width: 500px) {
+  .news {
+    padding-top: 40px;
+  }
+
+  .media {
+    padding-top: 100px;
+    padding-bottom: 140px;
+  }
+}
+
 @media only screen and (min-width: 700px) {
   .heading {
     visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .news {
+    padding-top: 60px;
+  }
+
+  .media {
+    padding-top: 120px;
+    padding-bottom: 150px;
   }
 }
 
@@ -28,5 +50,10 @@
   .news,
   .media {
     margin-left: calc((100vw - 1200px) / 2);
+  }
+
+  .media {
+    padding-top: 140px;
+    padding-bottom: 160px;
   }
 }
