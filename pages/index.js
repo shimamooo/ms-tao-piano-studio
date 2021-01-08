@@ -5,6 +5,7 @@ import Layout from '../components/layout';
 import ImageSlider from '../components/image-slider';
 import SlideDownButton from '../components/slide-down-button';
 import Cards from '../components/cards';
+import { useEffect } from 'react';
 
 export default function Home() {
   return (

@@ -1,5 +1,6 @@
 import styles from './image-slider.module.css';
 import { useEffect } from 'react';
+import utils from '../styles/utils.module.css';
 
 export default function ImageSlider() {
   useEffect(() => {
@@ -16,23 +17,29 @@ export default function ImageSlider() {
   });
 
   return (
-    <figure className={styles.imageSlider}>
-      <img
-        src='https://source.unsplash.com/random/1600x900'
-        className={styles.img}
-        alt=''
-      />
-      <img
-        src='https://source.unsplash.com/user/erondu/1600x900'
-        className={styles.img}
-        alt=''
-      />
-      <img
-        src='https://source.unsplash.com/collection/190727/1600x900'
-        className={styles.img}
-        alt=''
-      />
-      <span className={styles.overlay}></span>
-    </figure>
+    <>
+      <figure className={styles.imageSlider}>
+        <img
+          src='https://source.unsplash.com/random/1600x900'
+          className={styles.img}
+          alt=''
+        />
+        <img
+          src='https://source.unsplash.com/user/erondu/1600x900'
+          className={styles.img}
+          alt=''
+        />
+        <img
+          src='https://source.unsplash.com/collection/190727/1600x900'
+          className={styles.img}
+          alt=''
+        />
+        <span className={styles.overlay}></span>
+      </figure>
+      <div className={`${styles.heading} ${utils.container}`}>
+        <p className={utils.labelH1}>Ms. Tao</p>
+        <h1 className={utils.h1}>Piano Studio</h1>
+      </div>
+    </>
   );
 }
