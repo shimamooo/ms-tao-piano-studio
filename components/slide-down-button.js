@@ -1,4 +1,7 @@
 import styles from './slide-down-button.module.css';
+import smoothscroll from 'smoothscroll-polyfill';
+
+smoothscroll.polyfill();
 
 export default function SlideDownButton({ slide }) {
   const scroll = () => {
