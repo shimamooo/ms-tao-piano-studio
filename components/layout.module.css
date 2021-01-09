@@ -79,7 +79,7 @@
 
   .contact {
     margin-bottom: 20px;
-    grid-template-columns: repeat(3, 50px);
+    grid-template-columns: repeat(3, 45px);
     gap: 20px;
   }
 }
@@ -95,7 +95,7 @@
   }
 
   .contact {
-    grid-template-columns: repeat(3, 55px);
+    grid-template-columns: repeat(3, 50px);
   }
 }
 

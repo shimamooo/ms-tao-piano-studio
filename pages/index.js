@@ -20,9 +20,9 @@ export default function Home() {
           <h1 className={util.h1}>Piano Studio</h1>
         </div>
         <ImageSlider />
-        <SlideDownButton />
+        <SlideDownButton slide={styles.news} />
       </section>
-      <section className={styles.news} id='news'>
+      <section className={styles.news}>
         <h2 className={util.h2}>News</h2>
         <Cards />
       </section>
