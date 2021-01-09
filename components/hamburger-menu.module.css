@@ -53,18 +53,31 @@
   position: absolute;
   transition: opacity 0.3s cubic-bezier(0.83, 0, 1, 1.02);
   opacity: 0;
-  width: 450px;
+  width: 330px;
   max-width: 90vw;
-  margin: -25px 0 0 -23px;
+  margin: -25px 0 0 -22px;
   border-radius: 5px;
-  padding: 60px 25px 25px 100px;
+  padding: 65px 0 10px 70px;
   background: #fff;
   visibility: hidden;
+  box-shadow: 0 7px 8px hsla(0, 0%, 0%, 0.2);
+  border-top: 2px solid hsla(0, 0%, 0%, 0.05);
 }
 
 .navbar li {
   font-size: 20px;
   margin-bottom: 30px;
+}
+
+.navbar a {
+  color: var(--gray);
+  transition: color 0.2s ease-in;
+}
+
+.navbar a:hover {
+  color: var(--gray-dark);
+  text-decoration: underline;
+  text-decoration-color: var(--red-light);
 }
 
 .navbar span {
