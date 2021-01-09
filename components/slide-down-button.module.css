@@ -7,19 +7,29 @@
   transform: translate(-50%, 0);
   cursor: pointer;
   display: inline-block;
-  border: 1px solid var(--gray-light);
+  border: 2px solid var(--gray-dark);
   border-radius: 999px;
+  transition: all 0.5s ease-in-out;
+}
+
+.slideDownButton:hover {
+  border-color: var(--gray);
+}
+
+.slideDownButton:hover .circle {
+  background-color: var(--red);
 }
 
 .circle {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: var(--red);
-  right: 2px;
+  background: var(--red-dark);
+  right: 1px;
   border-radius: 999px;
-  top: 2.5px;
+  top: 2px;
   animation: pulse 3s infinite ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 @keyframes pulse {

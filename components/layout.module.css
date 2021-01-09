@@ -22,6 +22,11 @@
 }
 
 .footerLinks a {
+  color: var(--gray);
+  transition: all 0.2s ease-in-out;
+}
+
+.footerLinks a:hover {
   color: var(--gray-light);
 }
 

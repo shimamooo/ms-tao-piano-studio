@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function HamburgerMenu() {
   return (
     <nav className={styles.navbar}>
-      <div>
+      <div className={styles.container}>
         <input type='checkbox' />
 
         <span className={styles.hamburger1}></span>

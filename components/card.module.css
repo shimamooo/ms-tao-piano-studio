@@ -4,6 +4,15 @@
   padding-right: 15px;
 }
 
+.article:hover .cardLink .link {
+  text-decoration: underline;
+  text-decoration-color: var(--red-light);
+}
+
+.article:hover .arrow {
+  transform: translateX(2px) translateY(-1px);
+}
+
 .img {
   width: 250px;
   height: 275px;
@@ -24,6 +33,7 @@
 .arrow {
   height: 15px;
   margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
 }
 
 @media only screen and (min-width: 500px) {
