@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 import utils from '../styles/utils.module.css';
+import styles from '../styles/StudentAchievements.module.css';
 
 export default function StudentAchievements() {
   return (
