@@ -1,21 +1,22 @@
 .content {
   margin-top: 100px;
   text-align: center;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
+  line-height: 1.8;
 }
 
 .content p {
   color: var(--gray);
   text-align: left;
-  max-width: 700px;
-  margin: 0 auto 30px auto;
+  max-width: 600px;
+  margin: 0 auto 24px auto;
   font-weight: 400;
 }
 
 .content img {
-  max-width: 700px;
+  max-width: 600px;
   width: calc(100vw - 60px);
   border-radius: 5px;
   display: inline-block;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }

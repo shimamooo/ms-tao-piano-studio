@@ -1,0 +1,24 @@
+.container {
+  max-width: 600px;
+  margin: 100px auto 80px auto;
+  text-align: center;
+}
+
+.accordion {
+  cursor: pointer;
+}
+
+.input {
+  opacity: 0;
+  position: absolute;
+  z-index: -5;
+}
+
+.hiddenContent {
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.input:checked ~ .hiddenContent {
+  opacity: 0;
+}
