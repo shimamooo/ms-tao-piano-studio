@@ -20,30 +20,37 @@ export default function StudentAchievements() {
               className={styles.input}
             />
             <label htmlFor='2019' className={styles.label}>
-              Year of 2019
+              <p>Year of 2019</p>
+              <img
+                src='img/arrow.svg'
+                alt='toggle dropdown'
+                className={styles.svg}
+              />
             </label>
             <div className={styles.hiddenContent}>
-              <div>
-                <h3>Alex Ren</h3>
-                <p>
-                  1st Place - Won 2019 MTAC Alameda County East Piano
-                  Competition - Division D: Kabalevsky Sonata Op. 46 No. 3
-                </p>
-              </div>
-              <div>
-                <h3>Anthony Kuang</h3>
-                <p>
-                  2nd Place - Won 2019 MTAC Alameda County East Piano
-                  Competition - Division C - J.S. Bach Toccata BWV 914
-                </p>
-                <p>
-                  2nd Place - Won 2019 US Open Music Competition Treasury of
-                  Chinese Composers - Senior: Ding On the Shore
-                </p>
-                <p>
-                  3rd Place - Won 2019 US Open Music Competition Treasury of
-                  Baroque Composers - Senior: J.S. Bach Toccata BWV 914
-                </p>
+              <div className={styles.padding}>
+                <div>
+                  <h3>Alex Ren</h3>
+                  <p>
+                    1st Place - Won 2019 MTAC Alameda County East Piano
+                    Competition - Division D: Kabalevsky Sonata Op. 46 No. 3
+                  </p>
+                </div>
+                <div>
+                  <h3>Anthony Kuang</h3>
+                  <p>
+                    2nd Place - Won 2019 MTAC Alameda County East Piano
+                    Competition - Division C - J.S. Bach Toccata BWV 914
+                  </p>
+                  <p>
+                    2nd Place - Won 2019 US Open Music Competition Treasury of
+                    Chinese Composers - Senior: Ding On the Shore
+                  </p>
+                  <p>
+                    3rd Place - Won 2019 US Open Music Competition Treasury of
+                    Baroque Composers - Senior: J.S. Bach Toccata BWV 914
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -56,7 +63,12 @@ export default function StudentAchievements() {
               className={styles.input}
             />
             <label htmlFor='2018' className={styles.label}>
-              Year of 2018
+              <p>Year of 2018</p>
+              <img
+                src='img/arrow.svg'
+                alt='toggle dropdown'
+                className={styles.svg}
+              />
             </label>
             <div className={styles.hiddenContent}>
               <div>
