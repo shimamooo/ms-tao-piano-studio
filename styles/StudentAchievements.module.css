@@ -46,6 +46,10 @@
   border-radius: 0 0 5px 5px;
 }
 
+.medal {
+  height: 50px;
+}
+
 .padding {
   padding: 40px;
 }

@@ -32,6 +32,11 @@ export default function StudentAchievements() {
                 <div>
                   <h3>Alex Ren</h3>
                   <p>
+                    <img
+                      src='img/gold.svg'
+                      alt='gold medal'
+                      className={styles.medal}
+                    />
                     1st Place - Won 2019 MTAC Alameda County East Piano
                     Competition - Division D: Kabalevsky Sonata Op. 46 No. 3
                   </p>
