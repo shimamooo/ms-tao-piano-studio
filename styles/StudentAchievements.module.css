@@ -9,7 +9,7 @@
 }
 
 .tab {
-  margin-bottom: 48px;
+  margin: 0 30px 48px 30px;
   background-color: var(--gray-dark);
   color: var(--gray-light);
   border-radius: 5px;
