@@ -2,14 +2,8 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 import utils from '../styles/utils.module.css';
 import styles from '../styles/StudentAchievements.module.css';
-import { useEffect } from 'react';
 
 export default function StudentAchievements() {
-  useEffect(() => {
-    const accordion = document.querySelector(`.${styles.accordion}`);
-    let i;
-  });
-
   return (
     <Layout page='student-achievements'>
       <Head>
@@ -17,15 +11,15 @@ export default function StudentAchievements() {
       </Head>
       <main className={utils.container} className={styles.container}>
         <h1 className={utils.h2}>Student Achievements</h1>
-        <section>
-          <div>
+        <section className={styles.tabs}>
+          <div className={styles.tab}>
             <input
-              type='radio'
+              type='checkbox'
               name='year'
               id='2019'
               className={styles.input}
             />
-            <label htmlFor='2019' className={styles.accordion}>
+            <label htmlFor='2019' className={styles.label}>
               Year of 2019
             </label>
             <div className={styles.hiddenContent}>
@@ -54,14 +48,14 @@ export default function StudentAchievements() {
             </div>
           </div>
 
-          <div>
+          <div className={styles.tab}>
             <input
-              type='radio'
+              type='checkbox'
               name='year'
               id='2018'
               className={styles.input}
             />
-            <label htmlFor='2018' className={styles.accordion}>
+            <label htmlFor='2018' className={styles.label}>
               Year of 2018
             </label>
             <div className={styles.hiddenContent}>
