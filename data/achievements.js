@@ -204,9 +204,36 @@ export const yearOf2018 = [
         placement: 'bronze',
       },
       {
-        competition: 'MTAC Alameda County East Piano Competition - Division D',
-        piece: '',
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Senior',
+        piece: 'Zhihong Guo Xinjiang Dance',
         placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Susan Zhang & Michael Li',
+    events: [
+      {
+        competition: 'US Open Music Competition Open Duet Baroque - Senior',
+        piece: 'Reger Aria & Gigue from J.S. Bach Suite #3',
+        placement: 'pewter',
+      },
+      {
+        competition: 'US Open Music Competition - Open Duet Baroque - Senior',
+        piece: 'Samazeuith La Vida Breve',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Vivian Chang & Sabrina Chang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Open Duet Baroque - Intermediate',
+        piece: 'Rohr Polonaise & Bourree from J.S. Bach French Suite #6',
+        placement: 'pewter',
       },
     ],
   },
