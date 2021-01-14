@@ -15,6 +15,8 @@ export default function StudentAchievements() {
       return '3rd Place';
     } else if (placement === 'pewter') {
       return '4th Place';
+    } else if (placement === 'honorableMention') {
+      return 'Honorable Mention';
     }
   };
 

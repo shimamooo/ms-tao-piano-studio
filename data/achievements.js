@@ -212,6 +212,16 @@ export const yearOf2018 = [
     ],
   },
   {
+    name: 'Susan Zhang',
+    events: [
+      {
+        competition: 'MTAC Alameda County East Piano Competition - Division C',
+        piece: '',
+        placement: 'honorableMention',
+      },
+    ],
+  },
+  {
     name: 'Susan Zhang & Michael Li',
     events: [
       {
