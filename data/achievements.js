@@ -3,7 +3,7 @@ export const yearOf2019 = [
     name: 'Alex Ren',
     events: [
       {
-        competition: 'MTAC Alameda Couunty East Piano Competition - Division D',
+        competition: 'MTAC Alameda County East Piano Competition - Division D',
         piece: 'Kabalevsky Sonata Op. 46, No. 3',
         placement: 'gold',
       },
@@ -13,7 +13,7 @@ export const yearOf2019 = [
     name: 'Anthony Kuang',
     events: [
       {
-        competition: 'MTAC Alameda Couunty East Piano Competition - Division C',
+        competition: 'MTAC Alameda County East Piano Competition - Division C',
         piece: 'J.S. Bach Toccata BWV 914',
         placement: 'silver',
       },
@@ -41,7 +41,7 @@ export const yearOf2019 = [
         placement: 'silver',
       },
       {
-        competition: 'MTAC Alameda Couunty East Piano Competition - Division C',
+        competition: 'MTAC Alameda County East Piano Competition - Division C',
         piece: '',
         placement: 'bronze',
       },
@@ -93,6 +93,120 @@ export const yearOf2019 = [
           'US Open Music Competition Treasury of Chinese Composers - Junior',
         piece: 'Wang Spring Grass',
         placement: 'pewter',
+      },
+    ],
+  },
+];
+
+export const yearOf2018 = [
+  {
+    name: 'Justin Lee',
+    events: [
+      {
+        competition: 'MTAC Alameda County East Piano Competition - Division B',
+        piece: '',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Classical Composers - Senior',
+        piece: 'Mozart Sonata K.457',
+        placement: 'silver',
+      },
+      {
+        competition: 'US Open Music Competition Open Solo - Baroque Level 6',
+        piece: 'Rameau The Assembly of Birds',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Anthony Kuang',
+    events: [
+      {
+        competition: 'MTAC Alameda County East Piano Competition - Division B',
+        piece: 'Joplin Sun Flower Slow Drag',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of U.S. Composers - Senior',
+        piece: 'Joplin Sun Flower Slow Drag',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Baroque Composers - Advanced',
+        piece: 'J.S. Bach Prelude and Fugue BWV 855',
+        placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Crystal Xie',
+    events: [
+      {
+        competition: 'MTAC Alameda County East Piano Competition - Division A',
+        piece: '',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Baroque Composers - Intermediate',
+        piece: 'J.S. Bach Invention No. 2',
+        placement: 'pewter',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of French/Impressionistic Composers - Intermediate',
+        piece: 'Gretchaninoff Nocturne Op. 3, No. 5',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Alex Ren',
+    events: [
+      {
+        competition: 'MTAC Alameda County East Piano Competition - Division C',
+        piece: '',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Michael Li',
+    events: [
+      {
+        competition: 'MTAC Alameda County East Piano Competition - Division B',
+        piece: '',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Atticus Lee',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Intermediate',
+        piece: 'Kabalevsky Sonatina Op. 13, No. 1',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Max Chan',
+    events: [
+      {
+        competition: 'MTAC Alameda County East Piano Competition - Division D',
+        piece: '',
+        placement: 'bronze',
+      },
+      {
+        competition: 'MTAC Alameda County East Piano Competition - Division D',
+        piece: '',
+        placement: 'bronze',
       },
     ],
   },
