@@ -1,20 +1,18 @@
 .videos {
-  padding-bottom: 80px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
-  grid-gap: 20px 30px;
+  padding-top: 24px;
 }
 
-.videos iframe {
+.video {
+  margin-bottom: 24px;
+  width: 100%;
   width: 302px;
-  height: 170px;
+  height: 166px;
 }
 
 @media only screen and (min-width: 400px) {
   .videos iframe {
-    width: 335px;
-    height: 200px;
+    width: 400px;
+    height: 224px;
   }
 }
 
@@ -28,6 +26,6 @@
 @media only screen and (min-width: 750px) {
   .videos iframe {
     width: 560px;
-    height: 315px;
+    height: 310px;
   }
 }

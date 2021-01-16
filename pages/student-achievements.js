@@ -35,9 +35,7 @@ export default function StudentAchievements() {
         <title>Student Achievements</title>
       </Head>
       <main className={utils.container} className={styles.container}>
-        <h1 className={utils.h2} className={styles.h1}>
-          Student Achievements
-        </h1>
+        <h1 className={utils.h2}>Student Achievements</h1>
         <section className={styles.tabs}>
           <div className={styles.tab}>
             <input

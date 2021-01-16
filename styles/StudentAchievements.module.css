@@ -9,7 +9,7 @@
 }
 
 .tab {
-  margin: 0 20px 36px 20px;
+  margin: 0 20px 32px 20px;
   background-color: var(--gray-dark);
   color: var(--gray-light);
   border-radius: 5px;
@@ -17,8 +17,8 @@
   position: relative;
 }
 
-.h1 {
-  margin-bottom: 60px;
+.tab:first-child {
+  margin-top: 40px;
 }
 
 .input {

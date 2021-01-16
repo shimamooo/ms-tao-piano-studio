@@ -10,7 +10,7 @@ export default function StudentPerformances() {
       <Head>
         <title>Student Performances</title>
       </Head>
-      <main className={utils.container}>
+      <main className={utils.container} className={styles.container}>
         <h1 className={`${utils.h2} ${styles.heading}`}>
           Student Performances
         </h1>
