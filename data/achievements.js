@@ -935,7 +935,7 @@ export const yearOf2011 = [
       {
         competition:
           'US Open Music Competition Treasury of Contemporary Composers - Intermediate',
-        piece: 'bartok Chromatic Invention, Mikrokosmos Vol. 3 #92',
+        piece: 'Bartok Chromatic Invention, Mikrokosmos Vol. 3 #92',
         placement: 'gold',
       },
     ],
@@ -988,7 +988,7 @@ export const yearOf2011 = [
     name: 'Daria Hoang',
     events: [
       {
-        competition: 'US Open Music Competition Showcase Piano Solo - junior',
+        competition: 'US Open Music Competition Showcase Piano Solo - Junior',
         piece: '',
         placement: 'pewter',
       },
