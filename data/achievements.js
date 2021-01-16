@@ -640,3 +640,358 @@ export const yearOf2014 = [
     ],
   },
 ];
+
+export const yearOf2013 = [
+  {
+    name: 'Emily Guo & Lilly Jiang',
+    events: [
+      {
+        competition: 'US Open Music Competition Open Duet - Junior',
+        piece: 'Brahms Liebeslieder Waltz Op. 52a No. 9',
+        placement: 'gold',
+      },
+      {
+        competition: 'US Open Music Competition Open Duet - Elementary',
+        piece: 'Andre Sonatina in F Major Op. 45 No. 3',
+        placement: 'gold',
+      },
+    ],
+  },
+  {
+    name: 'Jeffrey Tian',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of U.S.A. Composers - Junior',
+        piece: 'Bloch Dream',
+        placement: 'gold',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Romantic Composers - Junior',
+        piece: 'Tchaikovsky The New Doll Op. 39 No. 9',
+        placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Stephanie Shao',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Gregorian Composers - Junior',
+        piece: 'Lomdaridze Evening on the Mountain',
+        placement: 'gold',
+      },
+    ],
+  },
+  {
+    name: 'Alex Ren',
+    events: [
+      {
+        competition: 'US Open Music Competition Open Solo 4B',
+        piece: 'Haydn Sonata Hob. XVI:36, 2nd mvt',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Classical Composers - Intermediate',
+        piece: 'Clementi Sonatina Op. 36 No. 6, 1st mvt',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Jack Dong',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Intermediate',
+        piece: 'Kabalevsky Etude Op. 27 No. 3',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Classical Composers - Intermediate',
+        piece: 'Clementi Sonatina Op. 36 No. 5, 3rd mvt',
+        placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Lilly Jiang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Classical Composers - Junior',
+        piece: 'Mozart Menuetto and Trio K. 215a No. 3',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Emily Guo',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Georgian Composers - Junior',
+        piece: 'Lombaridze Toccata in E Minor',
+        placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Hans Dong',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Junior',
+        piece: '信天游',
+        placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Jessica Yuan',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Intemediate',
+        piece: '北风吹',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Erika Yang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Intemediate',
+        piece: 'Kabalevsky A Little Joke',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'David Wang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Georgian Composers - Elementary',
+        piece: 'Lombaridze Song Without Words #2',
+        placement: 'pewter',
+      },
+    ],
+  },
+];
+
+export const yearOf2012 = [
+  {
+    name: 'Alex Ren',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Baroque Composers - Intermediate',
+        piece: 'J.S. Bach Invention #9 BWV 780 in f minor',
+        placement: 'gold',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Intermediate',
+        piece: '放牛娃儿盼红军变奏曲',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Showcase Sight-reading Solo - Elementary',
+        piece: '',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Lilly Jiang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Junior',
+        piece: '绣荷包 ',
+        placement: 'gold',
+      },
+    ],
+  },
+  {
+    name: 'Emily Guo',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Junior',
+        piece: 'Maykapar Prelude #18',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'David Wang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Junior',
+        piece: 'Maykapar Prelude #5 in D Major',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Classical Composers - Intermediate',
+        piece: 'Clementi Sonatina Op. 36 No. 6, 1st mvt',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Stephanie Shao',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Showcase Sight-reading Solo - Elementary',
+        piece: '',
+        placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Jessica Phongsa',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Classical Composers - Junior',
+        piece: 'Beethoven Bagatelle Op. 119 No. 3 in D Major',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Deedee Jiang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Showcase Piano Solo - Intermediate',
+        piece: 'Chopin Nocturne Op. 37 No. 1',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Hans Dong',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Junior',
+        piece: '信天游',
+        placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Jessica Yuan',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Intemediate',
+        piece: '北风吹',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Erika Yang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Intemediate',
+        piece: 'Kabalevsky A Little Joke',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'David Wang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Georgian Composers - Elementary',
+        piece: 'Lombaridze Song Without Words #2',
+        placement: 'pewter',
+      },
+    ],
+  },
+];
+
+export const yearOf2011 = [
+  {
+    name: 'Alex Ren',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Intermediate',
+        piece: 'bartok Chromatic Invention, Mikrokosmos Vol. 3 #92',
+        placement: 'gold',
+      },
+    ],
+  },
+  {
+    name: 'George Liu',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Junior',
+        piece: '',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Eric Li',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Intermediate',
+        piece: '',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Stephanie Shao',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Showcase Piano Solo - Elementary',
+        piece: '',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Allen Yuan',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of U.S.A. Composers - Elementary',
+        piece: '',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Daria Hoang',
+    events: [
+      {
+        competition: 'US Open Music Competition Showcase Piano Solo - junior',
+        piece: '',
+        placement: 'pewter',
+      },
+    ],
+  },
+];

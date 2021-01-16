@@ -9,12 +9,16 @@
 }
 
 .tab {
-  margin: 0 20px 48px 20px;
+  margin: 0 20px 36px 20px;
   background-color: var(--gray-dark);
   color: var(--gray-light);
   border-radius: 5px;
   box-shadow: 0 5px 3px 0 rgba(37, 37, 37, 0.18);
   position: relative;
+}
+
+.h1 {
+  margin-bottom: 60px;
 }
 
 .input {
@@ -36,6 +40,11 @@
   transition: transform 0.3s ease;
 }
 
+.award a {
+  margin-left: 8px;
+  color: var(--red-dark);
+}
+
 .hiddenContent {
   max-height: 0;
   opacity: 0;
@@ -53,9 +62,9 @@
 }
 
 .medal {
-  width: 48px;
+  width: 40px;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 

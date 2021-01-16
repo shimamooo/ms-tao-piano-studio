@@ -9,6 +9,9 @@ import {
   yearOf2016,
   yearOf2015,
   yearOf2014,
+  yearOf2013,
+  yearOf2012,
+  yearOf2011,
 } from '../data/achievements';
 
 export default function StudentAchievements() {
@@ -32,7 +35,9 @@ export default function StudentAchievements() {
         <title>Student Achievements</title>
       </Head>
       <main className={utils.container} className={styles.container}>
-        <h1 className={utils.h2}>Student Achievements</h1>
+        <h1 className={utils.h2} className={styles.h1}>
+          Student Achievements
+        </h1>
         <section className={styles.tabs}>
           <div className={styles.tab}>
             <input
@@ -67,7 +72,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition}: <a>{event.piece}</a>
+                              Won {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
@@ -112,7 +117,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition}: <a>{event.piece}</a>
+                              Won {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
@@ -157,7 +162,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition}: <a>{event.piece}</a>
+                              Won {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
@@ -202,7 +207,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition}: <a>{event.piece}</a>
+                              Won {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
@@ -247,7 +252,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition}: <a>{event.piece}</a>
+                              Won {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
@@ -292,7 +297,142 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition}: <a>{event.piece}</a>
+                              Won {event.competition} <a>{event.piece}</a>
+                            </p>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.tab}>
+            <input
+              type='checkbox'
+              name='year'
+              id='2013'
+              className={styles.input}
+            />
+            <label htmlFor='2013' className={styles.label}>
+              <p>Year of 2013</p>
+              <img
+                src='img/arrow.svg'
+                alt='toggle dropdown'
+                className={styles.svg}
+              />
+            </label>
+            <div className={styles.hiddenContent}>
+              <div className={styles.padding}>
+                {yearOf2013.map((student) => {
+                  return (
+                    <div>
+                      <h3>{student.name}</h3>
+                      {student.events.map((event) => {
+                        return (
+                          <div className={styles.award}>
+                            <img
+                              src={`img/${event.placement}.svg`}
+                              alt={`${event.placement} medal`}
+                              className={styles.medal}
+                            />
+                            <p>
+                              <b className={styles.b}>
+                                {placement(event.placement)}
+                              </b>{' '}
+                              Won {event.competition} <a>{event.piece}</a>
+                            </p>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.tab}>
+            <input
+              type='checkbox'
+              name='year'
+              id='2012'
+              className={styles.input}
+            />
+            <label htmlFor='2012' className={styles.label}>
+              <p>Year of 2012</p>
+              <img
+                src='img/arrow.svg'
+                alt='toggle dropdown'
+                className={styles.svg}
+              />
+            </label>
+            <div className={styles.hiddenContent}>
+              <div className={styles.padding}>
+                {yearOf2012.map((student) => {
+                  return (
+                    <div>
+                      <h3>{student.name}</h3>
+                      {student.events.map((event) => {
+                        return (
+                          <div className={styles.award}>
+                            <img
+                              src={`img/${event.placement}.svg`}
+                              alt={`${event.placement} medal`}
+                              className={styles.medal}
+                            />
+                            <p>
+                              <b className={styles.b}>
+                                {placement(event.placement)}
+                              </b>{' '}
+                              Won {event.competition} <a>{event.piece}</a>
+                            </p>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.tab}>
+            <input
+              type='checkbox'
+              name='year'
+              id='2011'
+              className={styles.input}
+            />
+            <label htmlFor='2011' className={styles.label}>
+              <p>Year of 2011</p>
+              <img
+                src='img/arrow.svg'
+                alt='toggle dropdown'
+                className={styles.svg}
+              />
+            </label>
+            <div className={styles.hiddenContent}>
+              <div className={styles.padding}>
+                {yearOf2011.map((student) => {
+                  return (
+                    <div>
+                      <h3>{student.name}</h3>
+                      {student.events.map((event) => {
+                        return (
+                          <div className={styles.award}>
+                            <img
+                              src={`img/${event.placement}.svg`}
+                              alt={`${event.placement} medal`}
+                              className={styles.medal}
+                            />
+                            <p>
+                              <b className={styles.b}>
+                                {placement(event.placement)}
+                              </b>{' '}
+                              Won {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );

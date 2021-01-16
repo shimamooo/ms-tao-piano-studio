@@ -35,9 +35,9 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--red-dark);
-  cursor: pointer;
+  color: var(--gray-dark);
   font-weight: 400;
+  cursor: pointer;
 }
 
 ul {
