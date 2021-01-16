@@ -510,3 +510,133 @@ export const yearOf2015 = [
     ],
   },
 ];
+
+export const yearOf2014 = [
+  {
+    name: 'Erika Yang & Jessica Yuan',
+    events: [
+      {
+        competition: 'US Open Music Competition Open Duet - Senior',
+        piece: 'Debussy Cortege and Ballet from Petite Suite',
+        placement: 'gold',
+      },
+    ],
+  },
+  {
+    name: 'Anthony Kuang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of U.S.A. Composers - Junior',
+        piece: 'Brown March',
+        placement: 'gold',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Popular Favorites - Junior',
+        piece: 'Gurlitt Dangerous Adventure',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Baroque Composers - Junior',
+        piece: 'Bach Little Prelude BWV 938',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Alex Ren',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Intermediate',
+        piece: 'Khachaturian Etude',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Senior',
+        piece:
+          'Bartok Mikrokosmos Vol. 5 Stamping Dance and Alternating Thirds',
+        placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Lilly Jiang',
+    events: [
+      {
+        competition:
+          'US Open Music Treasury of Contemporary Composers - Junior',
+        piece: 'Tansman Conclusion',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Junior',
+        piece: '照花台',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Alex Ren & Lilly Jiang',
+    events: [
+      {
+        competition: 'US Open Music Competition Open Duet - Intermediate',
+        piece: 'Debussy En bateau and Menuet from Petite Suite',
+        placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Charlotte Law',
+    events: [
+      {
+        competition: 'US Open Music Competition Open Solo 3A',
+        piece: 'Bach Little Prelude BWV 939',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Romantic Composers - Junior',
+        piece: 'Burgmuller Tarantella Op. 100 No. 20',
+        placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Audrey Kang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Intermediate',
+        piece: 'Khachaturian Imitating people',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Ashley Rong',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Russian Composers - Junior',
+        piece: 'Kabalevsky A Short Story Op. 39 No. 22',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Sabrina Tsai',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Russian Composers - Elementary',
+        piece: 'Kabalevsky Polka and Cradle Song',
+        placement: 'pewter',
+      },
+    ],
+  },
+];
