@@ -42,6 +42,8 @@ export default function About() {
         </p>
       </main>
 
+      <div className={styles.hr}></div>
+
       <section className={styles.aboutMsTao}>
         <figure className={styles.mstao}>
           <img src='img/mstao.jpg' alt='Ms Tao' />
