@@ -59,85 +59,85 @@ export default function Cards({ section }) {
           label='Alex Ren'
           title='Kabalevsky Op. 46 No. 3'
           img='alex-ren'
-          url=''
+          url='https://www.youtube.com/watch?v=HusCKaMlSTQ'
         />
         <Card
           label='Max Chan'
           title='Thunder in the Dry Season'
           img='max-chan'
-          url=''
+          url='https://www.youtube.com/watch?v=BZFTfuOHfa4'
         />
         <Card
           label='Alex Ren & Ethan Yu'
           title='Beethoven Marcia I & II'
           img='alex-ren&ethan-yu'
-          url=''
+          url='https://www.youtube.com/watch?v=Javk0KS-Y9o'
         />
         <Card
           label='Alex Ren & Ethan Yu'
           title='Mozart Andante from Sonata K.381/123a in G Major'
           img='alex-ren&ethan-yu2'
-          url=''
+          url='https://www.youtube.com/watch?v=nrV_OQiQG4c'
         />
         <Card
           label='Anthony Kuang'
           title="Menotti The Stranger's Dance"
           img='anthony-kuang'
-          url=''
+          url='https://www.youtube.com/watch?v=JKBuLxU-suI'
         />
         <Card
           label='Erika Yang & Jessica Yuan'
           title='Debussy Ballet from Petite Suite'
           img='erika-yang&jessica-yuan'
-          url=''
+          url='https://www.youtube.com/watch?v=TQZpdNqGD1Y'
         />
         <Card
           label='Anthony Kuang'
           title='Brown March'
           img='anthony-kuang2'
-          url=''
+          url='https://www.youtube.com/watch?v=LNNKoIBYgEo'
         />
         <Card
           label='Emily Guo & Lilly Jiang'
           title='Liebeslider Waltz Op. 52a #9 in F Major'
           img='lilly-jiang&emily-guo'
-          url=''
+          url='https://www.youtube.com/watch?v=cDHzpu7hadM'
         />
         <Card
           label='Emily Guo & Lilly Jiang'
           title='Andre Sonatina Op. 45 #3 in F Major'
           img='lilly-jiang&emily-guo2'
-          url=''
+          url='https://www.youtube.com/watch?v=4LSR_lWakOw'
         />
         <Card
           label='Jeffrey Tian'
           title='Bloch Dream'
           img='jeffrey-tian'
-          url=''
+          url='https://www.youtube.com/watch?v=SEsVDERk7Mc'
         />
         <Card
           label='Stephanie Shao'
           title='Lombaridze Evening on the Mountain'
           img='stephanie-shao'
-          url=''
+          url='https://www.youtube.com/watch?v=UdCgASzBbEE'
         />
         <Card
           label='Alex Ren'
           title='Bach Invention #9 in f minor'
           img='alex-ren2'
-          url=''
+          url='https://www.youtube.com/watch?v=VGAW4mXaPH8'
         />
         <Card
           label='Lilly Jiang'
-          title='Li Embroidery'
+          title='Li 绣荷包'
           img='lilly-jiang'
-          url=''
+          url='https://www.youtube.com/watch?v=gPN54ljAldI'
         />
         <Card
           label='Alex Ren'
           title='Bartok Chromatic Invention, Mikrokosmos Vol 3 #92'
           img='alex-ren3'
-          url=''
+          url='https://www.youtube.com/watch?v=9d2-MFdH_fc&feature=emb_title'
         />
       </div>
     );

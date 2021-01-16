@@ -28,7 +28,7 @@ export default function Card({ year, section, img, label, title, url }) {
   } else {
     return (
       <article className={styles.article}>
-        <a href='student-achievements#2019'>
+        <a href={url} target='_blank'>
           <img
             className={styles.img}
             src={`img/${img}.jpg`}
@@ -37,7 +37,7 @@ export default function Card({ year, section, img, label, title, url }) {
         </a>
         <p className={util.labelCards}>{label}</p>
         <div className={styles.cardLink}>
-          <a href='student-achievements#2019' className={styles.link}>
+          <a href={url} className={styles.link} target='_blank'>
             <p>{title}</p>
             <img
               src='img/arrow-right.svg'
