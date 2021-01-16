@@ -2,7 +2,7 @@ import Card from './card';
 import styles from './cards.module.css';
 import { useEffect } from 'react';
 
-export default function Cards() {
+export default function Cards({ section }) {
   useEffect(() => {
     const sliders = document.querySelectorAll(`.${styles.cards}`);
     let isDown = false;
@@ -34,20 +34,36 @@ export default function Cards() {
     });
   });
 
-  return (
-    <div className={styles.cards}>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </div>
-  );
+  if (section === 'news') {
+    return (
+      <div className={styles.cards}>
+        <Card year='2019' section={section} />
+        <Card year='2018' section={section} />
+        <Card year='2017' section={section} />
+        <Card year='2016' section={section} />
+        <Card year='2015' section={section} />
+        <Card year='2014' section={section} />
+        <Card year='2013' section={section} />
+        <Card year='2012' section={section} />
+        <Card year='2011' section={section} />
+      </div>
+    );
+  } else if (section === 'media') {
+    return (
+      <div className={styles.cards}>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    );
+  }
 }
