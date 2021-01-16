@@ -1,7 +1,7 @@
 import styles from './card.module.css';
 import util from '../styles/utils.module.css';
 
-export default function Card({ year, section, img }) {
+export default function Card({ year, section, img, label, title, url }) {
   if (section === 'news') {
     return (
       <article className={styles.article}>
@@ -26,6 +26,27 @@ export default function Card({ year, section, img }) {
       </article>
     );
   } else {
-    return 'chill';
+    return (
+      <article className={styles.article}>
+        <a href='student-achievements#2019'>
+          <img
+            className={styles.img}
+            src={`img/${img}.jpg`}
+            alt={`${year} competition results`}
+          />
+        </a>
+        <p className={util.labelCards}>{label}</p>
+        <div className={styles.cardLink}>
+          <a href='student-achievements#2019' className={styles.link}>
+            <p>{title}</p>
+            <img
+              src='img/arrow-right.svg'
+              alt='arrow right'
+              className={styles.arrow}
+            />
+          </a>
+        </div>
+      </article>
+    );
   }
 }
