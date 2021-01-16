@@ -248,3 +248,226 @@ export const yearOf2018 = [
     ],
   },
 ];
+
+export const yearOf2017 = [
+  {
+    name: 'Max Chan',
+    events: [
+      {
+        competition: 'Special Deeds Talent Showcase Competition',
+        piece: 'Thunder in the Dry Season',
+        placement: 'gold',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Senior',
+        piece: 'Turina The Bareback Rider',
+        placement: 'bronze',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of U.S.A. Composers - Senior',
+        piece: 'Joio Salute to Scarlatti #3',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Anthony Kuang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Intermediate',
+        piece: 'Martinu The New Puppet',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of U.S.A. Composers - Intermediate',
+        piece: 'Larson Penta Metrics V',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Michael Li',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Classical Composers - Intermediate',
+        piece: 'Haydn Sonata Hob. XVI:19 - Finale',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Showcase Sight Reading Solo - Junior',
+        piece: '',
+        placement: 'bronze',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Baroque Composers - Intermediate',
+        piece: 'Bach Partita III BWV 827 - Scherzo',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Susan Zhang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Intermediate',
+        piece: 'Lisan Wang After Another Rainfall (新雨后)',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Crystal Xie',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Baroque Composers - Intermediate',
+        piece: 'Bach Partita III BWV 827 - Burlesca',
+        placement: 'bronze',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Intermediate',
+        piece: 'Lisan Wang Sketches - The Impression of Dulcimer',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Vivian Chang & Sabrina Chang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Open Duet Contemporary - Junior',
+        piece: 'Joio The Ballerina',
+        placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Vivian Chang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Baroque Composers - Intermediate',
+        piece: 'Bach Partita II BWV 826 - Sarabande',
+        placement: 'pewter',
+      },
+    ],
+  },
+];
+
+export const yearOf2016 = [
+  {
+    name: 'Alex Ren & Ethan Yu',
+    events: [
+      {
+        competition: 'US Open Music Competition Open Duet - Senior',
+        piece: 'Beethoven Marcia I & II',
+        placement: 'gold',
+      },
+      {
+        competition: 'US Open Music Competition Open Duet - Senior',
+        piece: 'Ibert The Little White Donket',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Anthony Kuang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Intermediate',
+        piece: 'Martinu The New Puppet',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of U.S.A. Composers - Intermediate',
+        piece: 'Larson Penta Metrics V',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Michael Li',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Classical Composers - Intermediate',
+        piece: 'Haydn Sonata Hob. XVI:19 - Finale',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Showcase Sight Reading Solo - Junior',
+        piece: '',
+        placement: 'bronze',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Baroque Composers - Intermediate',
+        piece: 'Bach Partita III BWV 827 - Scherzo',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Susan Zhang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Intermediate',
+        piece: 'Lisan Wang After Another Rainfall (新雨后)',
+        placement: 'silver',
+      },
+    ],
+  },
+  {
+    name: 'Crystal Xie',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Baroque Composers - Intermediate',
+        piece: 'Bach Partita III BWV 827 - Burlesca',
+        placement: 'bronze',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Chinese Composers - Intermediate',
+        piece: 'Lisan Wang Sketches - The Impression of Dulcimer',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Vivian Chang & Sabrina Chang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Open Duet Contemporary - Junior',
+        piece: 'Joio The Ballerina',
+        placement: 'bronze',
+      },
+    ],
+  },
+  {
+    name: 'Vivian Chang',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Baroque Composers - Intermediate',
+        piece: 'Bach Partita II BWV 826 - Sarabande',
+        placement: 'pewter',
+      },
+    ],
+  },
+];
