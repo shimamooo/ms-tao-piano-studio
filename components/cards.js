@@ -37,15 +37,19 @@ export default function Cards({ section }) {
   if (section === 'news') {
     return (
       <div className={styles.cards}>
-        <Card year='2019' section={section} />
-        <Card year='2018' section={section} />
-        <Card year='2017' section={section} />
-        <Card year='2016' section={section} />
-        <Card year='2015' section={section} />
-        <Card year='2014' section={section} />
-        <Card year='2013' section={section} />
-        <Card year='2012' section={section} />
-        <Card year='2011' section={section} />
+        <Card
+          year='2019'
+          section={section}
+          img='2019-alameda-east-competition-d'
+        />
+        <Card year='2018' section={section} img='2019-usomc-max' />
+        <Card year='2017' section={section} img='2019-usomc-angela' />
+        <Card year='2016' section={section} img='2019-usomc-michael' />
+        <Card year='2015' section={section} img='2019-usomc-amber' />
+        <Card year='2014' section={section} img='alameda-division-c-winners' />
+        <Card year='2013' section={section} img='img14' />
+        <Card year='2012' section={section} img='img13' />
+        <Card year='2011' section={section} img='2019-usomc-jessica' />
       </div>
     );
   } else if (section === 'media') {
