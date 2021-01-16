@@ -24,3 +24,128 @@
   display: inline-block;
   margin-bottom: 32px;
 }
+
+.mstao {
+  min-width: 200px;
+  height: 200px;
+}
+
+.mstao figcaption {
+  max-width: 200px;
+}
+
+.mstao figcaption p {
+  margin-bottom: 40px;
+}
+
+.mstao b {
+  display: block;
+  margin-top: 10px;
+  font-weight: 400;
+  color: var(--gray);
+  font-size: 18px;
+}
+
+.mstao img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.aboutMsTao {
+  margin: 140px auto 100px auto;
+  padding: 0 30px;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about1,
+.about2 {
+  max-width: 600px;
+  font-weight: 400;
+  color: var(--gray);
+  font-size: 20px;
+}
+
+.about1 {
+  margin-bottom: 40px;
+}
+
+.biography {
+  border-left: 2px solid var(--gray-light);
+  padding-left: 250px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .biography {
+    padding-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .biography {
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .mstao {
+    margin-right: 30px;
+  }
+
+  .biography {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .aboutMsTao {
+    display: block;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mstao {
+    margin-right: 0;
+  }
+
+  .mstao img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .mstao figcaption {
+    display: block;
+    max-width: 600px;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .mstao figcaption p {
+    margin-bottom: 20px;
+  }
+
+  .mstao b {
+    font-size: 16px;
+  }
+
+  .biography {
+    border-left: hidden;
+    display: block;
+    padding-left: 0;
+    margin-top: 300px;
+  }
+
+  .about1,
+  .about2 {
+    max-width: 100%;
+  }
+}

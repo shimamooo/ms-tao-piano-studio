@@ -41,6 +41,51 @@ export default function About() {
           for more information.
         </p>
       </main>
+
+      <section className={styles.aboutMsTao}>
+        <figure className={styles.mstao}>
+          <img src='img/mstao.jpg' alt='Ms Tao' />
+          <figcaption>
+            <p>
+              Master of Arts in Piano Performance{' '}
+              <b>University of Wyoming, USA 美国怀俄明洲立大学-钢琴演奏硕士</b>{' '}
+            </p>
+            <p>
+              Bachelor of Arts in Piano Performance{' '}
+              <b>
+                Shanghai Conservatory of Music, China
+                中国上海音乐学院-钢琴演奏学士{' '}
+              </b>
+            </p>
+          </figcaption>
+        </figure>
+        <div className={styles.biography}>
+          <p className={styles.about1}>
+            Ms. Tao is an accomplished pianist in the area of classical piano.
+            She performed in many different cities of China and United States.
+            She successfully performed her Graduate Recital, Chair’s Honor
+            Convocation, and Lowell Liebermann (U.S. famous composer) Piano
+            Concerto No. 2 with the UW (University of Wyoming) Symphony
+            Orchestra. She studied piano performance and education with famous
+            Steinway Artist, Prof. Christopher Zhong, and the Keyboard Area
+            Coordinator of the UW Music Department, Dr. Theresa Bogard.
+          </p>
+          <p className={styles.about2}>
+            Ms. Tao instructed advanced students successfully enrolled in
+            Shanghai Conservatory of Music, won National Piano Competitions,and
+            taught in various music schools; in the United States, she
+            instructed music major students to improve their technique, perform
+            in different recitals and knowledge of Music Theory. After she came
+            to the Bay Area, Ms.Tao became a member of MTAC (Music Teachers’
+            Association of California), has taught Certificate of Merit, and
+            ABRSM (Associated Board of the Royal Schools of Music) Examination.
+            All of her students passed the Piano Performance and Music Theory
+            exams with high scores. Ms Tao also instructed her students to win
+            various international piano competitions. Most of her students enjoy
+            participating in competitions every year.
+          </p>
+        </div>
+      </section>
     </Layout>
   );
 }
