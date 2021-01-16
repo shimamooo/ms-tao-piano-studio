@@ -13,27 +13,23 @@ export default function ImageSlider() {
       slideshowImages[index].style.opacity = 0;
       index = (index + 1) % slideshowImages.length;
       slideshowImages[index].style.opacity = 1;
-    }, 5000);
+    }, 10000);
   });
 
   return (
     <>
       <figure className={styles.imageSlider}>
         <img
-          src='https://source.unsplash.com/random/1600x900'
+          src='img/2019-alameda-east-competition-d.jpg'
           className={styles.img}
-          alt=''
+          alt='competition'
         />
         <img
-          src='https://source.unsplash.com/user/erondu/1600x900'
+          src='img/dolo-iglesias-FjElUqGfbAw-unsplash.jpg'
           className={styles.img}
-          alt=''
+          alt='piano'
         />
-        <img
-          src='https://source.unsplash.com/collection/190727/1600x900'
-          className={styles.img}
-          alt=''
-        />
+        <img src='img/img-4870_orig.jpg' className={styles.img} alt='recital' />
         <span className={styles.overlay}></span>
       </figure>
       <div className={`${styles.heading} ${utils.container}`}>
