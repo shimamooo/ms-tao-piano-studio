@@ -386,87 +386,126 @@ export const yearOf2016 = [
       {
         competition:
           'US Open Music Competition Treasury of Contemporary Composers - Intermediate',
-        piece: 'Martinu The New Puppet',
+        piece: 'Starer Dancing Next Door',
         placement: 'silver',
       },
       {
         competition:
           'US Open Music Competition Treasury of U.S.A. Composers - Intermediate',
-        piece: 'Larson Penta Metrics V',
+        piece: 'Beach Pantalon',
         placement: 'silver',
       },
     ],
   },
   {
-    name: 'Michael Li',
-    events: [
-      {
-        competition:
-          'US Open Music Competition Treasury of Classical Composers - Intermediate',
-        piece: 'Haydn Sonata Hob. XVI:19 - Finale',
-        placement: 'silver',
-      },
-      {
-        competition:
-          'US Open Music Competition Showcase Sight Reading Solo - Junior',
-        piece: '',
-        placement: 'bronze',
-      },
-      {
-        competition:
-          'US Open Music Competition Treasury of Baroque Composers - Intermediate',
-        piece: 'Bach Partita III BWV 827 - Scherzo',
-        placement: 'pewter',
-      },
-    ],
-  },
-  {
-    name: 'Susan Zhang',
+    name: 'Max Chan',
     events: [
       {
         competition:
           'US Open Music Competition Treasury of Chinese Composers - Intermediate',
-        piece: 'Lisan Wang After Another Rainfall (新雨后)',
+        piece: '旱天雷',
+        placement: 'silver',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Intermediate',
+        piece: 'Starer Dreams of Glory',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Emily Guo & Lilly Jiang',
+    events: [
+      {
+        competition: 'US Open Music Competition Open Duet - Intermediate',
+        piece: 'Weber Sonatina in C major',
+        placement: 'silver',
+      },
+      {
+        competition: 'US Open Music Competition Open Duet - Intermediate',
+        piece: 'Arensky The Cuckoo',
+        placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Erika Yang & Julia Liu',
+    events: [
+      {
+        competition: 'US Open Music Competition Open Duet - Advanced',
+        piece: 'Faure Mi-A-Ou & The Spanish Dance Step',
+        placement: 'bronze',
+      },
+    ],
+  },
+];
+
+export const yearOf2015 = [
+  {
+    name: 'Alex Ren & Ethan Yu',
+    events: [
+      {
+        competition: 'US Open Music Competition Open Duet - Intermediate',
+        piece: 'Mozart Andante from Sonata K.381/123a in G Major',
+        placement: 'gold',
+      },
+    ],
+  },
+  {
+    name: 'Alex Ren',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Contemporary Composers - Advanced',
+        piece:
+          'Kabalevsky Allegro giocoso (3rd mvt) from Sonata Op. 46 in F Major',
         placement: 'silver',
       },
     ],
   },
   {
-    name: 'Crystal Xie',
+    name: 'Anthony Kuang',
     events: [
       {
         competition:
-          'US Open Music Competition Treasury of Baroque Composers - Intermediate',
-        piece: 'Bach Partita III BWV 827 - Burlesca',
-        placement: 'bronze',
+          'US Open Music Competition Treasury of U.S.A. Composers - Junior',
+        piece: "Menoti The Stranger's Dance",
+        placement: 'gold',
       },
       {
         competition:
-          'US Open Music Competition Treasury of Chinese Composers - Intermediate',
-        piece: 'Lisan Wang Sketches - The Impression of Dulcimer',
-        placement: 'pewter',
-      },
-    ],
-  },
-  {
-    name: 'Vivian Chang & Sabrina Chang',
-    events: [
-      {
-        competition:
-          'US Open Music Competition Open Duet Contemporary - Junior',
-        piece: 'Joio The Ballerina',
+          'US Open Music Competition Treasury of Contemporary Composers - Intermediate',
+        piece: 'Ligeti VIII Vivace. energico',
         placement: 'bronze',
       },
     ],
   },
   {
-    name: 'Vivian Chang',
+    name: 'Asher Yang',
     events: [
       {
         competition:
-          'US Open Music Competition Treasury of Baroque Composers - Intermediate',
-        piece: 'Bach Partita II BWV 826 - Sarabande',
+          'US Open Music Treasury of Contemporary Composers - Elementary',
+        piece: 'Kabalevsky Playing Ball Op. 27 No. 5',
+        placement: 'bronze',
+      },
+      {
+        competition:
+          'US Open Music Competition Treasury of Baroque Composers - Elementary',
+        piece: 'Couperin Le Petit Rien in D Major',
         placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Jessica Phongsa',
+    events: [
+      {
+        competition:
+          'US Open Music Competition Treasury of Romantic Composers - Intermediate',
+        piece: 'Chopin Nocturne Op. 32 No. 1 in B major',
+        placement: 'bronze',
       },
     ],
   },
