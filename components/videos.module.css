@@ -3,16 +3,16 @@
 }
 
 .video {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   width: 100%;
   width: 302px;
   height: 166px;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 420px) {
   .videos iframe {
-    width: 400px;
-    height: 224px;
+    width: 380px;
+    height: 214px;
   }
 }
 
