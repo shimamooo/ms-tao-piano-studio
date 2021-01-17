@@ -45,6 +45,11 @@ export const yearOf2019 = [
         piece: '',
         placement: 'bronze',
       },
+      {
+        competition: 'Advanced Level - Passed with State Honor & Branch Honor',
+        piece: '',
+        placement: 'cm',
+      },
     ],
   },
   {
@@ -93,6 +98,36 @@ export const yearOf2019 = [
           'US Open Music Competition Treasury of Chinese Composers - Junior',
         piece: 'Wang Spring Grass',
         placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Kevin Tsao',
+    events: [
+      {
+        competition: 'Advanced Level - Passed with State Honor & Branch Honor',
+        piece: '',
+        placement: 'cm',
+      },
+    ],
+  },
+  {
+    name: 'Eric Wang',
+    events: [
+      {
+        competition: 'Advanced Level - Passed',
+        piece: '',
+        placement: 'cm',
+      },
+    ],
+  },
+  {
+    name: 'Isabella Pang',
+    events: [
+      {
+        competition: 'Advanced Level - Passed',
+        piece: '',
+        placement: 'cm',
       },
     ],
   },
@@ -247,6 +282,26 @@ export const yearOf2018 = [
       },
     ],
   },
+  {
+    name: 'Evan Xu',
+    events: [
+      {
+        competition: 'Advanced Level - Passed',
+        piece: '',
+        placement: 'cm',
+      },
+    ],
+  },
+  {
+    name: 'Beatricia Lam',
+    events: [
+      {
+        competition: 'Grade 8 - Passed with Merit',
+        piece: '',
+        placement: 'abrsm',
+      },
+    ],
+  },
 ];
 
 export const yearOf2017 = [
@@ -286,6 +341,11 @@ export const yearOf2017 = [
           'US Open Music Competition Treasury of U.S.A. Composers - Intermediate',
         piece: 'Larson Penta Metrics V',
         placement: 'silver',
+      },
+      {
+        competition: 'Grade 8 - Passed with Distinction',
+        piece: '',
+        placement: 'abrsm',
       },
     ],
   },
@@ -359,6 +419,56 @@ export const yearOf2017 = [
           'US Open Music Competition Treasury of Baroque Composers - Intermediate',
         piece: 'Bach Partita II BWV 826 - Sarabande',
         placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Lilly Jiang',
+    events: [
+      {
+        competition: 'Advanced Level - Passed with Branch Honor',
+        piece: '',
+        placement: 'cm',
+      },
+    ],
+  },
+  {
+    name: 'Jessica Luan',
+    events: [
+      {
+        competition: 'Advanced Level - Passed with Branch Honor',
+        piece: '',
+        placement: 'cm',
+      },
+    ],
+  },
+  {
+    name: 'Audrey Kang',
+    events: [
+      {
+        competition: 'Advanced Level - Passed',
+        piece: '',
+        placement: 'cm',
+      },
+    ],
+  },
+  {
+    name: 'Jessica Phongsa',
+    events: [
+      {
+        competition: 'Grade 8 - Passed with Merit',
+        piece: '',
+        placement: 'abrsm',
+      },
+    ],
+  },
+  {
+    name: 'Vincent Zhang',
+    events: [
+      {
+        competition: 'Grade 8 - Passed',
+        piece: '',
+        placement: 'abrsm',
       },
     ],
   },
@@ -439,6 +549,36 @@ export const yearOf2016 = [
       },
     ],
   },
+  {
+    name: 'Emily Guo',
+    events: [
+      {
+        competition: 'Grade 8 - Passed with Merit',
+        piece: '',
+        placement: 'abrsm',
+      },
+    ],
+  },
+  {
+    name: 'Andrew Guo',
+    events: [
+      {
+        competition: 'Grade 8 - Passed with Merit',
+        piece: '',
+        placement: 'abrsm',
+      },
+    ],
+  },
+  {
+    name: 'Benita Wang',
+    events: [
+      {
+        competition: 'Advanced Level - Passed',
+        piece: '',
+        placement: 'cm',
+      },
+    ],
+  },
 ];
 
 export const yearOf2015 = [
@@ -506,6 +646,11 @@ export const yearOf2015 = [
           'US Open Music Competition Treasury of Romantic Composers - Intermediate',
         piece: 'Chopin Nocturne Op. 32 No. 1 in B major',
         placement: 'bronze',
+      },
+      {
+        competition: 'Advanced Level - Passed',
+        piece: '',
+        placement: 'cm',
       },
     ],
   },
@@ -639,6 +784,66 @@ export const yearOf2014 = [
       },
     ],
   },
+  {
+    name: 'Jack Dong',
+    events: [
+      {
+        competition: 'Advanced Level - Passed',
+        piece: '',
+        placement: 'cm',
+      },
+    ],
+  },
+  {
+    name: 'Ethan Yu',
+    events: [
+      {
+        competition: 'Grade 8 - Passed with Merit',
+        piece: '',
+        placement: 'abrsm',
+      },
+    ],
+  },
+  {
+    name: 'Trisha Sanghal',
+    events: [
+      {
+        competition: 'Grade 8 - Passed',
+        piece: '',
+        placement: 'abrsm',
+      },
+    ],
+  },
+  {
+    name: 'Harry Dong',
+    events: [
+      {
+        competition: 'Grade 8 - Passed',
+        piece: '',
+        placement: 'abrsm',
+      },
+    ],
+  },
+  {
+    name: 'Angelina Ho',
+    events: [
+      {
+        competition: 'Grade 8 - Passed',
+        piece: '',
+        placement: 'abrsm',
+      },
+    ],
+  },
+  {
+    name: 'Jeffrey Tian',
+    events: [
+      {
+        competition: 'Grade 8 - Passed',
+        piece: '',
+        placement: 'abrsm',
+      },
+    ],
+  },
 ];
 
 export const yearOf2013 = [
@@ -682,6 +887,11 @@ export const yearOf2013 = [
           'US Open Music Competition Treasury of Gregorian Composers - Junior',
         piece: 'Lomdaridze Evening on the Mountain',
         placement: 'gold',
+      },
+      {
+        competition: 'Grade 8 - Passed',
+        piece: '',
+        placement: 'abrsm',
       },
     ],
   },
@@ -760,6 +970,11 @@ export const yearOf2013 = [
         piece: '北风吹',
         placement: 'pewter',
       },
+      {
+        competition: 'Grade 8 - Passed',
+        piece: '',
+        placemen: 'abrsm',
+      },
     ],
   },
   {
@@ -771,6 +986,11 @@ export const yearOf2013 = [
         piece: 'Kabalevsky A Little Joke',
         placement: 'pewter',
       },
+      {
+        competition: 'Grade 8 - Passed',
+        piece: '',
+        placement: 'abrsm',
+      },
     ],
   },
   {
@@ -781,6 +1001,16 @@ export const yearOf2013 = [
           'US Open Music Competition Treasury of Georgian Composers - Elementary',
         piece: 'Lombaridze Song Without Words #2',
         placement: 'pewter',
+      },
+    ],
+  },
+  {
+    name: 'Melanie Chuong',
+    events: [
+      {
+        competition: 'Grade 8 - Passed with Merit',
+        piece: '',
+        placement: 'abrsm',
       },
     ],
   },
@@ -807,6 +1037,11 @@ export const yearOf2012 = [
           'US Open Music Competition Showcase Sight-reading Solo - Elementary',
         piece: '',
         placement: 'silver',
+      },
+      {
+        competition: 'Grade 8 - Passed',
+        piece: '',
+        placement: 'abrsm',
       },
     ],
   },
@@ -926,6 +1161,16 @@ export const yearOf2012 = [
       },
     ],
   },
+  {
+    name: 'Brittany To',
+    events: [
+      {
+        competition: 'Grade 8 - Passed',
+        piece: '',
+        placement: 'abrsm',
+      },
+    ],
+  },
 ];
 
 export const yearOf2011 = [
@@ -991,6 +1236,21 @@ export const yearOf2011 = [
         competition: 'US Open Music Competition Showcase Piano Solo - Junior',
         piece: '',
         placement: 'pewter',
+      },
+      {
+        competition: 'Grade 8 - Passed',
+        piece: '',
+        placement: 'abrsm',
+      },
+    ],
+  },
+  {
+    name: 'Brendan To',
+    events: [
+      {
+        competition: 'Grade 8 - Passed',
+        piece: '',
+        placement: 'abrsm',
       },
     ],
   },

@@ -78,7 +78,7 @@
   }
 
   .contact {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     grid-template-columns: repeat(3, 45px);
     gap: 20px;
   }

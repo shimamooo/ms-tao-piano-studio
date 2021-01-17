@@ -26,6 +26,10 @@ export default function StudentAchievements() {
       return '4th Place';
     } else if (placement === 'honorableMention') {
       return 'Honorable Mention';
+    } else if (placement === 'cm') {
+      return 'Certificate of Merit';
+    } else if (placement === 'abrsm') {
+      return 'ABRSM';
     }
   };
 
@@ -70,7 +74,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition} <a>{event.piece}</a>
+                              {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
@@ -115,7 +119,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition} <a>{event.piece}</a>
+                              {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
@@ -160,7 +164,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition} <a>{event.piece}</a>
+                              {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
@@ -205,13 +209,14 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition} <a>{event.piece}</a>
+                              {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
                       })}
                     </div>
                   );
+                  cm;
                 })}
               </div>
             </div>
@@ -250,7 +255,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition} <a>{event.piece}</a>
+                              {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
@@ -295,7 +300,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition} <a>{event.piece}</a>
+                              {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
@@ -340,7 +345,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition} <a>{event.piece}</a>
+                              {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
@@ -385,7 +390,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition} <a>{event.piece}</a>
+                              {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );
@@ -430,7 +435,7 @@ export default function StudentAchievements() {
                               <b className={styles.b}>
                                 {placement(event.placement)}
                               </b>{' '}
-                              Won {event.competition} <a>{event.piece}</a>
+                              {event.competition} <a>{event.piece}</a>
                             </p>
                           </div>
                         );

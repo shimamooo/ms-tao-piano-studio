@@ -15,7 +15,7 @@ export default function Card({ year, section, img, label, title, url }) {
         <p className={util.labelCards}>Competition</p>
         <div className={styles.cardLink}>
           <a href='student-achievements#2019' className={styles.link}>
-            <p>{year} Competition Results</p>
+            {year} Competition Results
             <img
               src='img/arrow-right.svg'
               alt='arrow right'

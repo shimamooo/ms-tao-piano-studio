@@ -9,10 +9,6 @@
   text-decoration-color: var(--red-light);
 }
 
-.article:hover .arrow {
-  transform: translateX(2px) translateY(-1px);
-}
-
 .img {
   border-radius: 3px;
   width: 250px;
@@ -32,9 +28,8 @@
 }
 
 .arrow {
-  height: 15px;
-  margin-left: 10px;
-  transition: transform 0.3s ease-in-out;
+  min-width: 15px;
+  margin-left: 12px;
 }
 
 @media only screen and (min-width: 500px) {
